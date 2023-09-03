@@ -1,0 +1,40 @@
+body{
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*---------- TOGGLE SECTION ---------*/
+
+.container{
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    padding: 0 15px;
+    border-radius: 15px;
+    width: 500px;
+}
+
+.section-container{
+    height: 4rem;
+    overflow: hidden;
+}
+
+
+.section-container .toggle-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+.toggle-title .plus-icon{
+    cursor: pointer;
+}
+
+/*-------- SHOW CONTENT --------*/
+.show{
+    height: auto;
+}
